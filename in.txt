@@ -1,0 +1,151 @@
+E GGGGrandpa GGGGrandma GGGrandpa
+E GGGGrandpa GGGGrandma Craig
+E GGGGrandpa GGGGrandma Duncan
+
+E Craig Jane Artie
+E Craig Jane Roy
+E Artie Shannon Barry
+E Artie Shannon Graham
+E Artie Shannon Ned
+E Barry Rachael Cedric
+E Cedric Alice Andy
+E Andy Colleen Joshua
+
+E Duncan Tina Mario
+E Mario Chloe Oscar
+E Oscar Leia Tobias
+
+E GGGrandpa GGGrandma GGrandpa
+E GGGrandpa GGGrandma Steve
+E Steve Debbie Nicki
+E Nicki Jorge Paul
+E Nicki Jorge Justin
+
+E Dale Linley Charles
+E Dale Linley Bridget
+E Dale Linley Emily
+E Dale Linley Butterscotch_Joelle
+
+E Justin Emily Jake
+E Justin Emily Paco
+E Justin Emily Willem
+
+E Curtis Alice Delilah
+E Delilah Mario
+
+E Craig Emily Hubert
+E Craig Emily Randy
+
+E GGrandpa GGrandma Grandpa
+E GGrandpa GGrandma Luis
+
+E Luis Anna Conor
+E Luis Anna Jane
+E Luis Anna Cristo_del_Toro
+
+E Conor Courtney Sarah
+E Conor Courtney Levi
+E Conor Courtney Dennis
+
+E Cristo_del_Toro Jonah
+E Cristo_del_Toro Liam
+
+E Grandpa Grandma Dad
+E Grandpa Grandma Kevin
+E Grandpa Grandma Mac
+
+E Kevin Kelly Stan
+E Kevin Kelly Eileen
+E Kevin Kelly Calvin
+
+E Mac Jessica Larry
+E Mac Jessica Glenn
+
+E Jorge Julie Mom
+
+E Mom Dad Chris
+E Mom Dad Bob
+E Mom Dad Thomas
+E Mom Dad David
+E Mom Dad Bert
+E Mom Dad Jacob
+
+
+W cousin Chris
+W cousin Larry
+W cousin Kelly
+W cousin Craig
+W cousin Paul
+W sibling David
+W sibling Eileen
+W half-sibling Craig
+W sibling Hubert
+W child Justin
+R Willem Charles
+R Justin Charles
+R Cristo_del_Toro Charles
+R Mario Charles
+R Jorge Jacob
+W half-sibling Bert
+W cousin Charles
+X Jake cousin Charles
+X Cristo_del_Toro cousin Charles
+R Jake Justin
+R Jake Chris
+R Justin Jacob
+R Bert Hubert
+R Thomas Dad
+
+R Thomas Grandpa
+R Thomas GGrandma
+R Thomas GGGrandpa
+R Thomas GGGGrandma
+
+R Dad Thomas
+R Grandpa Thomas
+R GGrandma Thomas
+R GGGrandpa Thomas
+R GGGGrandma Thomas
+
+X Jorge cousin Eileen
+R Mario Jane
+R GGGGrandpa GGGGrandma
+R Cedric Nicki
+
+X Charles descendant GGrandma
+R Charles GGrandma
+R Charles GGrandpa
+
+W ancestor Charles
+
+W descendant GGGGrandpa
+W descendant GGGGrandma
+W ancestor GGGGrandpa
+W ancestor GGGGrandma
+W ancestor Thomas
+X Thomas descendant GGGGrandpa
+X Thomas descendant GGGGrandma
+R Thomas GGGGrandpa
+R Thomas GGGGrandma
+
+W descendant Thomas
+W descendant Mom
+W descendant Dad
+
+W descendant Grandpa
+W descendant Grandma
+
+W descendant GGrandpa
+W descendant GGrandma
+
+W descendant Craig
+W descendant Duncan
+
+R Craig Artie
+R Artie Craig
+
+W ancestor Artie
+
+
+
+

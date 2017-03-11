@@ -1,0 +1,120 @@
+ReadMe
+——————————————————————————————————————————————————————————————————————————
+Sam Cacela
+Villanova University
+——————————————————————————————————————————————————————————————————————————
+
+							  HOW TO USE
+
+To Compile/Run these family tree interpreting programs (FTIPs),
+simply copy and paste the commands below in your terminal:
+
+	[Java]		javac Ftip.java
+				java Ftip < in.txt > out.txt
+
+	[Python]	python Ftip.py < in.txt > out.txt
+
+	[Lisp]		clisp -c Ftip.lisp
+				javac parenthesize.java
+				java parenthesize 1 0 < in.txt | clisp Ftip.lisp > out.txt
+
+
+The two arguments in the last command listed (which are '1' and '0', in
+this case) stand for ‘cousin degree’ and ‘cousin removal’, respectively.
+Running the command as written above will specify ‘cousin’ as ‘first
+cousin, zero times removed’.
+
+——————————————————————————————————————————————————————————————————————————
+
+				         	WHAT IS THIS?
+
+We have:
+
+Ftip.java ----------- and its .class
+Ftip.py
+Ftip.lisp ----------- and its .fas and .lib
+in.txt
+in2.txt
+parenthesize.java --- and its .class
+
+
+The first three files are family tree interpreting programs (FTIPs). They
+are essentially the same program, but are written in different lanuages.
+The Java and Python FTIPs play identical roles, while the Lisp FTIP
+features a more technical handling of the 'cousin' relationship.
+
+The files beginning with ‘in’ are sample input files. Their contents are to
+be fed into an FTIP line by line.
+
+parenthesize.java encloses the contents of each line of the input file with
+a set of parentheses so that it can be interpreted by the Lisp FTIP.
+
+——————————————————————————————————————————————————————————————————————————
+
+							  DESIGN
+
+In order to test an FTIP, it is first necessary to have an input file. The 
+input file is a text file with a written a set of instructions (one command
+per line) that stand for either events or queries.
+
+An event command represents either marriage between two named ‘people’ and
+the birth of their child, or just the marriage. The query commands pose
+questions regarding how the ‘people’ named in this file are related.
+
+When the FTIP is run, it reads the commands off of the lines in the input
+file. Upon reading each event command, the FTIP links the named ‘people’
+with other ‘people’ (previously named in the file) according to their
+apparent relationship. This linking process is the building of the family
+tree. Upon reading each query command, the FTIP responds to it in the
+output. This can reveal how the FTIP interprets the instructions in the 
+input file.
+
+Each command in the input file begins with four possible letters (‘E’,
+‘R’, ‘X’ and ‘W’).Those beginning with ‘E’ stand for events, and the rest
+stand for queries. Their meanings are shown in detail below.
+
+	Command					Meaning
+
+	E <n1> <n2>				<n1> and <na2> married.
+	E <n1> <n2> <n3>		…married and had a child, <n3>.
+	R <n1> <n2>				How are <n1> and <n2> most closely related?
+	X <n1> <relation> <n2>	Is <n1> the <relation> of <n2>?
+	W <relation> <n1>		List everyone who is the <relation> of <n1>.
+
+In the Lisp version, each command must be enclosed by a set of parentheses.
+
+<relation> can be either: spouse, parent, sibling, child, half-sibling,
+ancestor, descendant, cousin, or unrelated. For the purposes of these
+programs, that is the order from closest to furthest relation.
+
+In the Lisp version, the classification for ‘cousin’ is instead
+‘(cousin <degree> <removal>)’. In the Python and Java versions,
+‘cousin’ is more general and includes everyone who shares a common
+ancestor.
+
+——————————————————————————————————————————————————————————————————————————
+
+							  GAINS
+
+I've found this project useful and fun. The work I’ve done for them has
+helped me to:
+
+- gain skill and experience with Java, Python, and Lisp
+- gain skill and experience with various data structures
+- compare and contrast these languages
+- gain insight onto the organization of programming languages
+
+——————————————————————————————————————————————————————————————————————————
+
+					DO YOU KNOW YOUR OWN FAMILY?
+
+If you format the instructions in the input file according to your family
+tree, and use your relatives’ names, you might learn something new about
+who is related to you and how! 
+
+By using the W command in your input file, and running the Lisp version of
+the FTIP, you can find out who is the nth cousin m times removed from
+anyone in your family! You can also use the R command to find out the
+closest relation between any two relatives you name! How well do you think
+you know your family, or your place in it?
+
