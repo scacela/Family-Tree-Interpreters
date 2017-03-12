@@ -1,22 +1,22 @@
-ReadMe
+ReadMe2
 ——————————————————————————————————————————————————————————————————————————
 Sam Cacela
 Villanova University
 ——————————————————————————————————————————————————————————————————————————
 
-							  HOW TO USE
+			HOW TO USE
 
 To Compile/Run these family tree interpreting programs (FTIPs),
 simply copy and paste the commands below in your terminal:
 
-	[Java]		javac Ftip.java
-				java Ftip < in.txt > out.txt
+[Java]		javac Ftip.java
+		java Ftip < in.txt > out.txt
 
-	[Python]	python Ftip.py < in.txt > out.txt
+[Python]	python Ftip.py < in.txt > out.txt
 
-	[Lisp]		clisp -c Ftip.lisp
-				javac parenthesize.java
-				java parenthesize 1 0 < in.txt | clisp Ftip.lisp > out.txt
+[Lisp]		clisp -c Ftip.lisp
+		javac parenthesize.java
+		java parenthesize 1 0 < in.txt | clisp Ftip.lisp > out.txt
 
 
 The two arguments in the last command listed (which are '1' and '0', in
@@ -26,7 +26,7 @@ cousin, zero times removed’.
 
 ——————————————————————————————————————————————————————————————————————————
 
-				         	WHAT IS THIS?
+			WHAT IS THIS?
 
 We have:
 
@@ -51,7 +51,7 @@ a set of parentheses so that it can be interpreted by the Lisp FTIP.
 
 ——————————————————————————————————————————————————————————————————————————
 
-							  DESIGN
+			DESIGN
 
 In order to test an FTIP, it is first necessary to have an input file. The 
 input file is a text file with a written a set of instructions (one command
@@ -73,13 +73,13 @@ Each command in the input file begins with four possible letters (‘E’,
 ‘R’, ‘X’ and ‘W’).Those beginning with ‘E’ stand for events, and the rest
 stand for queries. Their meanings are shown in detail below.
 
-	Command					Meaning
+Command				Meaning
 
-	E <n1> <n2>				<n1> and <na2> married.
-	E <n1> <n2> <n3>		…married and had a child, <n3>.
-	R <n1> <n2>				How are <n1> and <n2> most closely related?
-	X <n1> <relation> <n2>	Is <n1> the <relation> of <n2>?
-	W <relation> <n1>		List everyone who is the <relation> of <n1>.
+E <n1> <n2>			<n1> and <na2> married.
+E <n1> <n2> <n3>		…married and had a child, <n3>.
+R <n1> <n2>			How are <n1> and <n2> most closely related?
+X <n1> <relation> <n2>		Is <n1> the <relation> of <n2>?
+W <relation> <n1>		List everyone who is the <relation> of <n1>.
 
 In the Lisp version, each command must be enclosed by a set of parentheses.
 
@@ -94,7 +94,7 @@ ancestor.
 
 ——————————————————————————————————————————————————————————————————————————
 
-							  GAINS
+			GAINS
 
 I've found this project useful and fun. The work I’ve done for them has
 helped me to:
@@ -106,7 +106,7 @@ helped me to:
 
 ——————————————————————————————————————————————————————————————————————————
 
-					DO YOU KNOW YOUR OWN FAMILY?
+			DO YOU KNOW YOUR OWN FAMILY?
 
 If you format the instructions in the input file according to your family
 tree, and use your relatives’ names, you might learn something new about
