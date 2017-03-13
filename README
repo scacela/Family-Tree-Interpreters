@@ -36,7 +36,6 @@ Ftip.java
 Ftip.py
 Ftip.lisp
 in.txt
-in2.txt
 parenthesize.java
 
 
@@ -45,8 +44,8 @@ are essentially the same program, but are written in different lanuages.
 The Java and Python FTIPs play identical roles, while the Lisp FTIP
 features a more technical handling of the 'cousin' relationship.
 
-The files beginning with ‘in’ are sample input files. Their contents are to
-be fed into an FTIP line by line.
+in.txt is a sample input file. Its contents is to be fed into an FTIP
+line by line.
 
 parenthesize.java encloses the contents of each line of the input file with
 a set of parentheses so that it can be interpreted by the Lisp FTIP.
