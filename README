@@ -76,7 +76,7 @@ stand for queries. Their meanings are shown in detail below.
 
 Command				Meaning
 
-E <n1> <n2>			<n1> and <na2> married.
+E <n1> <n2>			<n1> and <n2> married.
 E <n1> <n2> <n3>		…married and had a child, <n3>.
 R <n1> <n2>			How are <n1> and <n2> most closely related?
 X <n1> <relation> <n2>		Is <n1> the <relation> of <n2>?
