@@ -1,10 +1,10 @@
 ReadMe
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 Sam Cacela
 Villanova University
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 Use a program written in Java, Python, or Lisp to interpret family trees.
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 
 			HOW TO USE
 
@@ -26,7 +26,7 @@ this case) stand for ‘cousin degree’ and ‘cousin removal’, respectively.
 Running the command as written above will specify ‘cousin’ as ‘first
 cousin, zero times removed’.
 
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 
 			WHAT IS THIS?
 
@@ -51,7 +51,7 @@ be fed into an FTIP line by line.
 parenthesize.java encloses the contents of each line of the input file with
 a set of parentheses so that it can be interpreted by the Lisp FTIP.
 
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 
 			DESIGN
 
@@ -94,7 +94,7 @@ In the Lisp version, the classification for ‘cousin’ is instead
 ‘cousin’ is more general and includes everyone who shares a common
 ancestor.
 
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 
 			GAINS
 
@@ -106,7 +106,7 @@ helped me to:
 - compare and contrast these languages
 - gain insight onto the organization of programming languages
 
-——————————————————————————————————————————————————————————————————————————
+------------------------------------------------------------------------
 
 			DO YOU KNOW YOUR OWN FAMILY?
 
