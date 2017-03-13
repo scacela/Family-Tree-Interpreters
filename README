@@ -32,12 +32,12 @@ cousin, zero times removed’.
 
 We have:
 
-Ftip.java ----------- and its .class
+Ftip.java
 Ftip.py
-Ftip.lisp ----------- and its .fas and .lib
+Ftip.lisp
 in.txt
 in2.txt
-parenthesize.java --- and its .class
+parenthesize.java
 
 
 The first three files are family tree interpreting programs (FTIPs). They
