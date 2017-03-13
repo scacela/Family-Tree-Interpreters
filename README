@@ -23,8 +23,8 @@ simply copy and paste the commands below in your terminal:
 
 The two arguments in the last command listed (which are '1' and '0', in
 this case) stand for ‘cousin degree’ and ‘cousin removal’, respectively.
-Running the command as written above will specify ‘cousin’ as ‘first
-cousin, zero times removed’.
+For example, running the command as written above will specify ‘cousin’
+as ‘first cousin, zero times removed’.
 
 ------------------------------------------------------------------------
 
